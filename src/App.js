@@ -1,9 +1,12 @@
 import React from 'react';
-import Login from '.paegs/Login';
-
+import Login from './pages/Login';
+import GlobalStyle from './styles/GlobalStyles'
 function App() {
   return (
-    <Login />
+    <>
+      <Login />
+      <GlobalStyle />
+    </>
   );
 }
 
